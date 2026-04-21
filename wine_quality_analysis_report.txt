@@ -1,0 +1,127 @@
+WINE QUALITY ANALYSIS REPORT
+========================================
+
+Total Records: 1599
+
+Columns:
+fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality, AcidityIndex, Alcohol_pH_Ratio, Sweetness_Level, Acidity_Bucket
+
+--------------------------------------------------
+
+BASIC STATISTICS (Manual vs Pandas):
+
+fixed acidity
+Manual Mean: 8.3196 | Pandas Mean: 8.3196
+Manual Median: 7.9 | Pandas Median: 7.9
+Manual Mode: 7.2 | Pandas Mode: 7.2
+Min: 4.6 | Max: 15.9
+Manual Std Dev: 1.7406 | Pandas Std Dev: 1.7411
+
+volatile acidity
+Manual Mean: 0.5278 | Pandas Mean: 0.5278
+Manual Median: 0.52 | Pandas Median: 0.52
+Manual Mode: 0.6 | Pandas Mode: 0.6
+Min: 0.12 | Max: 1.58
+Manual Std Dev: 0.179 | Pandas Std Dev: 0.1791
+
+citric acid
+Manual Mean: 0.271 | Pandas Mean: 0.271
+Manual Median: 0.26 | Pandas Median: 0.26
+Manual Mode: 0.0 | Pandas Mode: 0.0
+Min: 0.0 | Max: 1.0
+Manual Std Dev: 0.1947 | Pandas Std Dev: 0.1948
+
+residual sugar
+Manual Mean: 2.5388 | Pandas Mean: 2.5388
+Manual Median: 2.2 | Pandas Median: 2.2
+Manual Mode: 2.0 | Pandas Mode: 2.0
+Min: 0.9 | Max: 15.5
+Manual Std Dev: 1.4095 | Pandas Std Dev: 1.4099
+
+chlorides
+Manual Mean: 0.0875 | Pandas Mean: 0.0875
+Manual Median: 0.079 | Pandas Median: 0.079
+Manual Mode: 0.08 | Pandas Mode: 0.08
+Min: 0.012 | Max: 0.611
+Manual Std Dev: 0.0471 | Pandas Std Dev: 0.0471
+
+free sulfur dioxide
+Manual Mean: 15.8749 | Pandas Mean: 15.8749
+Manual Median: 14.0 | Pandas Median: 14.0
+Manual Mode: 6.0 | Pandas Mode: 6.0
+Min: 1.0 | Max: 72.0
+Manual Std Dev: 10.4569 | Pandas Std Dev: 10.4602
+
+total sulfur dioxide
+Manual Mean: 46.4678 | Pandas Mean: 46.4678
+Manual Median: 38.0 | Pandas Median: 38.0
+Manual Mode: 28.0 | Pandas Mode: 28.0
+Min: 6.0 | Max: 289.0
+Manual Std Dev: 32.885 | Pandas Std Dev: 32.8953
+
+density
+Manual Mean: 0.9967 | Pandas Mean: 0.9967
+Manual Median: 0.9968 | Pandas Median: 0.9968
+Manual Mode: 0.9972 | Pandas Mode: 0.9972
+Min: 0.9901 | Max: 1.0037
+Manual Std Dev: 0.0019 | Pandas Std Dev: 0.0019
+
+pH
+Manual Mean: 3.3111 | Pandas Mean: 3.3111
+Manual Median: 3.31 | Pandas Median: 3.31
+Manual Mode: 3.3 | Pandas Mode: 3.3
+Min: 2.74 | Max: 4.01
+Manual Std Dev: 0.1543 | Pandas Std Dev: 0.1544
+
+sulphates
+Manual Mean: 0.6581 | Pandas Mean: 0.6581
+Manual Median: 0.62 | Pandas Median: 0.62
+Manual Mode: 0.6 | Pandas Mode: 0.6
+Min: 0.33 | Max: 2.0
+Manual Std Dev: 0.1695 | Pandas Std Dev: 0.1695
+
+alcohol
+Manual Mean: 10.423 | Pandas Mean: 10.423
+Manual Median: 10.2 | Pandas Median: 10.2
+Manual Mode: 9.5 | Pandas Mode: 9.5
+Min: 8.4 | Max: 14.9
+Manual Std Dev: 1.0653 | Pandas Std Dev: 1.0657
+
+quality
+Manual Mean: 5.636 | Pandas Mean: 5.636
+Manual Median: 6 | Pandas Median: 6.0
+Manual Mode: 5 | Pandas Mode: 5
+Min: 3 | Max: 8
+Manual Std Dev: 0.8073 | Pandas Std Dev: 0.8076
+
+AcidityIndex
+Manual Mean: 8.5765 | Pandas Mean: 8.5765
+Manual Median: 8.22 | Pandas Median: 8.22
+Manual Mode: 8.07 | Pandas Mode: 8.07
+Min: 4.9 | Max: 15.755
+Manual Std Dev: 1.5884 | Pandas Std Dev: 1.5889
+
+Alcohol_pH_Ratio
+Manual Mean: 3.1518 | Pandas Mean: 3.1518
+Manual Median: 3.0931 | Pandas Median: 3.0931
+Manual Mode: 3.3333 | Pandas Mode: 3.3333
+Min: 2.5474 | Max: 5.0
+Manual Std Dev: 0.3264 | Pandas Std Dev: 0.3265
+
+--------------------------------------------------
+
+OBSERVATIONS:
+
+- Most wines have medium quality (around 5 to 6)
+- High-quality wines are fewer in number
+- Higher alcohol content improves wine quality
+- Acidity affects taste balance
+- Medium acidity wines are more common
+
+--------------------------------------------------
+
+CONCLUSION:
+
+Wine quality depends on chemical properties such as alcohol and acidity.
+Most wines are of medium quality, while high-quality wines are limited.
+Statistical analysis confirms the patterns observed in the dataset.
